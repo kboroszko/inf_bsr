@@ -1,4 +1,19 @@
+# Cele kształcenia:
+
+
+
+
+
 # Program
+
+* TOC
+{:toc}
+
+
+
+
+-----
+
 
 1. Wprowadzenie - Analog vs Cyfrowy
 2. interpretacja sygnału, bramki logiczne
@@ -9,7 +24,6 @@
 7. Komunikacja
 8. PWM
 
------
 
 # 1. Wprowadzenie - Analog vs Cyfrowy
 
