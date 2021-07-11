@@ -1,6 +1,15 @@
 # Cele kształcenia:
 
+Chcemy zrozumieć jaka jest zasada działania komputera na najprostrzym, najniższym poziomie.
+Jak możemy przejść od prostych sygnałów do zaawansowanych urządzeń których
+używamy na codzień. 
 
+Chcemy zrozumieć jak działa procesor, pamięć, peryferia.
+
+Następnie jak wygląda architektura najprostrzych mikrokontrolerów.
+
+Wreszcie jak mogą nam pomóc w prostych zadaniach na codzień i jakie
+rozwiązania zostały stworzone żeby ułatwić to zadanie.
 
 
 
@@ -10,19 +19,8 @@
 {:toc}
 
 
-
-
 -----
 
-
-1. Wprowadzenie - Analog vs Cyfrowy
-2. interpretacja sygnału, bramki logiczne
-3. jak działa procesor
-4. Jak działa mikroprocesor?
-5. Programowanie na atmegach :) (przerwania i timery)
-6. Architektura Maliny
-7. Komunikacja
-8. PWM
 
 
 # 1. Wprowadzenie - Analog vs Cyfrowy
