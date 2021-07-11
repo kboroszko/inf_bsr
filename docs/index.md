@@ -2,11 +2,13 @@
 
 1. Wprowadzenie - Analog vs Cyfrowy
 2. interpretacja sygnału, bramki logiczne
-3. jak działa mikroprocesor
-4. Używanie GPIO - dioda, tranzystor, guzik itp.
-5. komunikacja z peryferiami
-6. używanie kamery, ekranu, głośnika itp.
-7. sterowanie silnikiem - PWM
+3. jak działa procesor
+4. Jak działa mikroprocesor?
+5. Programowanie na atmegach :) (przerwania i timery)
+6. Architektura Maliny
+7. Komunikacja
+8. PWM
+
 -----
 
 # 1. Wprowadzenie - Analog vs Cyfrowy
@@ -165,34 +167,6 @@ System operacyjny, usb, pamięć ram, wielowątkowość, czas, peryferia.
 Maliny to fundamentalnie inny sprzęt, nie mamy tak niskopoziomowej kontroli.
 To może być plus ale też minus:
 
-Malina PLusy:
-+ wysoki poziom abstrakcji (system operacyjny, python)
-+ łatwość obsługi peryferiów (przez software)
-+ dużo pamięci
-+ szybki procesor
-+ 64 bit
-+ łatwa komunikacja z innymi użądzeniami
-
-Minusy
-- pobór prądu
-- mała kontrola działania procesora
-- rozmiar
-- koszt
-
-Atmega plusy:
-+ mały koszt
-+ rozmiar
-+ mały pobór prądu
-+ nie skomplikowana architektura
-+ 100% kontroli nad pracą procesora (assembler) - tu chodzi o wydajność
-
-Minusy
-- niskopoziomowa (trzeba pisać w C)
-- powolna (zazwyczaj kilkanaście MHz)
-- mało bitów (zazwyczaj architektura 16bit)
-- komunikacja z innymi użądzeniami to ból (np. USB)
-
-
 | Malina                                                 | AVR (Atmega)                                                            |
 |--------------------------------------------------------|-------------------------------------------------------------------------|
 | + wysoki poziom abstrakcji (system operacyjny, python) | + mały koszt                                                            |
@@ -240,6 +214,33 @@ na jakimś AVR bez specialnego modułu USB? Jak używa się biblioteki V-USB?
 Tu natychmiast widać ogromną przewagę maliny. Mamy łatwość w łączeniu się
 z czym tylko dusza zapragnie używając kilku linijek kodu i bibliotek które
 ktoś już napisał.
+
+Na początek spróbujmy skomunikować się z peryferiami,
+połączyć się z termometrem czy z ekranem. 
+
+mini-projekt:
+Program który wyświetla na ekranie 7 segmentowym temperaturę.
+
+Komunikacja z innym komputerem itd. jest na raspi w zasadzie
+załatwiona bo mamy połączenie przez wifi i możemy wystawić jakieś api webowe.
+
+A jak skomunikować się z czymś co nie ma połączenia z wifi?
+Dlaczego korzystanie z USART jest 1000 razy prostrze?
+Na czym polega standard USB?
+
+Możemy to omówić, albo zrobić jakiś mini-projekt komunikacji dwóch mikrokontrolerów przez usart.
+
+
+# 8. PWM
+
+PWM - Pulse Width Modulation:
+Do sterowania komponentami które mają dużo wolniejszą odpowiedź 
+niż długość cyklu zegara, możemy użyć PWM.
+Żeby wysterować silnik, bardzo szybko włączamy i wyłączamy go. 
+Sterując *wypełnieniem* cyklu, możemy regulować ilość mocy dostarczanej do silnika.
+
+Tak samo możemy sterować napięciem. Multimetr podłączony do
+wyjścia PWM. Sterowanie jasnością diody, silnikiem, serwo-motorem.
 
 
 
