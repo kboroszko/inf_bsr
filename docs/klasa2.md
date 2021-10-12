@@ -1,6 +1,6 @@
 # Cele kształcenia:
 
-Chcemy zrozumieć jaka jest zasada działania komputera na najprostrzym, najniższym poziomie.
+<!-- Chcemy zrozumieć jaka jest zasada działania komputera na najprostrzym, najniższym poziomie.
 Jak możemy przejść od prostych sygnałów do zaawansowanych urządzeń których
 używamy na codzień. 
 
@@ -252,7 +252,7 @@ niż długość cyklu zegara, możemy użyć PWM.
 Sterując *wypełnieniem* cyklu, możemy regulować ilość mocy dostarczanej do silnika.
 
 Tak samo możemy sterować napięciem. Multimetr podłączony do
-wyjścia PWM. Sterowanie jasnością diody, silnikiem, serwo-motorem.
+wyjścia PWM. Sterowanie jasnością diody, silnikiem, serwo-motorem. -->
 
 
 
