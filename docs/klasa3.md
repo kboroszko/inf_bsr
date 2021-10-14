@@ -38,7 +38,7 @@ wersji projektu która jest w najmniejszym stopniu używalna dla końcowego uży
  
  <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
- <b>UWAGA</b> Stworzenie wersji MVP projektu jest <b>absolutnie najważniejszą częścią Waszego zadania</b>. Macie ustalić minimalną wersję Waszego projektu na początku i żeby zaliczyć ten przedmiot ta minimalna wersja musi powstać.
+ <b>UWAGA</b> Stworzenie wersji MVP projektu jest <b>absolutnie najważniejszą częścią Waszego zadania</b>. Macie ustalić minimalną wersję Waszego projektu na początku i ta minimalna wersja musi powstać.
 </div> 
  
 
