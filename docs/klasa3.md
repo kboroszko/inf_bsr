@@ -1,3 +1,30 @@
+<style>
+ /* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+} 
+</style>
+
 # Projekty
 
 
@@ -8,8 +35,13 @@
 Każdy projekt składa się z szeregu wymagań które trzeba na koniec spełnić. Żeby nie czekać aż wszystkie funkcjonalności będą zaimplementowane, 
 zanim będzie można  korzystać z efektu końcowego wprowadzono koncepcję [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) czyli minimalnej 
 wersji projektu która jest w najmniejszym stopniu używalna dla końcowego użytkownika.
-     
-:exclamation::exclamation: **NOTE**:exclamation::exclamation: : Stworzenie wersji MVP projektu jest **absolutnie najważniejszą częścią Waszego zadania**. Macie ustalić minimalną wersję Waszego projektu na początku i żeby zaliczyć ten przedmiot ta minimalna wersja musi powstać.
+ 
+ <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  This is an alert box.
+</div> 
+ 
+ **NOTE**:exclamation::exclamation: : Stworzenie wersji MVP projektu jest **absolutnie najważniejszą częścią Waszego zadania**. Macie ustalić minimalną wersję Waszego projektu na początku i żeby zaliczyć ten przedmiot ta minimalna wersja musi powstać.
 
 # Lewitacja akustyczna
 ![lewitacja akustyczna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Acoustic_Levitation.ogv/1200px--Acoustic_Levitation.ogv.jpg)
