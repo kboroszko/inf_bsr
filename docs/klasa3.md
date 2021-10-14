@@ -38,10 +38,9 @@ wersji projektu która jest w najmniejszym stopniu używalna dla końcowego uży
  
  <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  This is an alert box.
+  **UWAGA** Stworzenie wersji MVP projektu jest **absolutnie najważniejszą częścią Waszego zadania**. Macie ustalić minimalną wersję Waszego projektu na początku i żeby zaliczyć ten przedmiot ta minimalna wersja musi powstać.
 </div> 
  
- **NOTE**:exclamation::exclamation: : Stworzenie wersji MVP projektu jest **absolutnie najważniejszą częścią Waszego zadania**. Macie ustalić minimalną wersję Waszego projektu na początku i żeby zaliczyć ten przedmiot ta minimalna wersja musi powstać.
 
 # Lewitacja akustyczna
 ![lewitacja akustyczna](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Acoustic_Levitation.ogv/1200px--Acoustic_Levitation.ogv.jpg)
