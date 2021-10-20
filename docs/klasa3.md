@@ -221,5 +221,5 @@ Kod będzie w pythonie.
 ------------------------------------
 
 Pomysły wysyłajcie na:
-kajetan.boroszko@domena_szkolna
+kajetan.boroszko@...
 
