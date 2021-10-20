@@ -222,4 +222,4 @@ Kod będzie w pythonie.
 
 Pomysły wysyłajcie na:
 kajetan.boroszko@...
-
+wiecie jaka jest domena szkolna
