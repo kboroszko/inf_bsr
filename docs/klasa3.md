@@ -158,21 +158,68 @@ Może jest jakaś inna aplikacja na którą macie pomysł którą chcecie zrobi�
 
 --------------------------------------------------------------------------------------------
 
+<br>
+
 # Pytania pomocnicze:
 Wiele z tych projektów natrafia na podobne problemy. To są pytania wspólne dla większości z nich które mogą Wam pomóc w pracy nad nimi.
 
-*  Jaka jest najtrudniejsza część tego projektu?
+*  Jaki problem ten projekt rozwiązuje?
 *  Czy podobne rozwiązania już istnieją?
      *  Jeśli tak, to jakie?
      *  W jaki sposób takie rzeczy są najczęściej robione?
      *  Co można zrobić lepiej?
      *  Jeśli nie, to jak myślicie, dlaczego?
-*  Jakich technologi powinniście użyć?
+*  Jakich technologi zamierzasz użyć?
+    *  mikrokontrolery? (arduino? ESP32? STM32? rasPi?)
+    *  języki programowania? (C, C++, python?)
+    *  framework'i (django, flutter?)
+*  Jaka jest najtrudniejsza część tego projektu?
 
 
+# Mam swój pomysł na projekt!
+Super. Opisz w mailu swój pomysł. Postaraj się w nim zawrzeć plan jak widziałbyś wykonanie tego projektu i odpowiedzi na następujące pytania (tak wiem że duża część z nich to to samo co "pytania pomocnicze"):
 
 
+*  **Jaki problem rozwiązujesz?**
+*  **Jakie są główne funkcjonalności które musisz dostarczyć?**
+*  Jakich technologi zamierzasz użyć?
+    *  mikrokontrolery? (arduino? ESP32? STM32? rasPi?)
+    *  języki programowania? (C, C++, python?)
+    *  framework'i (django, flutter?)
+*  Co jest potrzebne do zrealizowania tego projektu? (trzeba coś dokupić? Głośniki? Silniki krokowe? Kamerę?)
+*  Ile z tego da się zrobić w jeden semestr? (jak wyglądałaby wersja MVP?)
+*  Jaka jest najtrudniejsza część tego projektu?
+*  Czy jest coś czego na razie nie umiesz zrobić? Problem na który nie masz rozwiązania? (To jest ok.)
 
 
+## Przykład:
+Mój pomysł to autonomiczna kosiarka. Koszenie trawy to proste i mechaniczne zadanie, które może zostać wykonane przez robota. Chciałbym zrobić moją własną wersję takiej kosiarki. 
 
+Wyobrażam to sobie tak:
+Trzeba zrobić pojazd który będzie jeździł po terenie ograniczonym przez kabel wkopany w ziemie. Kosiarka będzie bezprzewodowo wykrywać że jest nad kablem i wtedy zawracać. Nie będzie zbierać skoszonej trawy, tylko zostawiać to co zkosi. Po wyczerpaniu baterii będzie podjeżdżać do stacji ładowania i się ładować. Nie wiem jeszcze jak rozwiązać problem z gałęziami które mogą się pojawić na drodze. Może kosiarka powinna je wykrywać i omijać albo ignorować?
+
+Lista funkcjonalności:
+
+*  jeżdżący pojazd
+*  wykrywanie granic obszaru koszenia
+*  narzędzie do koszenia (wirujące noże, czy coś)
+*  stacja dokująca która sama się podłącza i ładuje baterie
+*  znajdowanie stacji dokującej
+*  zapewnienie 100% pokrycia obszaru koszenia (kosiarka musi napewno skosić 100% trawnika)
+*  wykrywanie gałęzi?
+*  Ekran i guziki potrzebne do konfiguracji kosiarki.
+
+Wersja MVP:
+
+jeżdżący pojazd który potrafi skręcać i cofać i jeździć po zadanej trasie wysyłanej do kosiarki przez wifi. np. jeździć po kwadracie. (Ekran i GUI do obsługi kosiarki nie znajduje się w wersji MVP)
+
+Użyłbym do tego:
+
+Raspberry pi w kosiarce i silników bezszczotkowych do jeżdżenia. Każde koło będzie na oddzielnym silniku żeby kosiarka mogła zawracać w miejscu.
+Kod będzie w pythonie.
+
+------------------------------------
+
+Pomysły wysyłajcie na:
+kajetan.boroszko@domena_szkolna
 
