@@ -1,4 +1,7 @@
-# Cele kształcenia:
+<!-- # Cele kształcenia: -->
+[symulator online](https://www.falstad.com/circuit/circuitjs.html)
+
+[symulator do pobrania](https://sebastian.itch.io/digital-logic-sim)
 
 <!-- Chcemy zrozumieć jaka jest zasada działania komputera na najprostrzym, najniższym poziomie.
 Jak możemy przejść od prostych sygnałów do zaawansowanych urządzeń których
