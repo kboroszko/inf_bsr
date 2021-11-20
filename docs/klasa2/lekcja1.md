@@ -2,8 +2,6 @@
 
 # Lekcja 1
 
-matchjax
-
 Koncepcja komputera zaczęła się od przetważania wyrażeń logicznych.
 
 Zacznijmy od najprostrzych wyrażeń:
