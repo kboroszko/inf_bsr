@@ -1,2 +1,2 @@
-# [klasa 2](/klasa2.md)
-# [klasa 3](/klasa3.md)
+# [klasa 2](/klasa2/klasa2.md)
+# [klasa 3](/klasa3/klasa3.md)
