@@ -1,16 +1,16 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # Lekcja 1
+
+matchjax
 
 Koncepcja komputera zaczęła się od przetważania wyrażeń logicznych.
 
 Zacznijmy od najprostrzych wyrażeń:
 
-* `OR` oznaczonego przez `$\lor$`
-* `AND`oznaczonego przez `$\land$`
-* `NOT` pznaczonego przez `$\neg$`
+* `OR` oznaczonego przez $$\lor$$
+* `AND`oznaczonego przez $$\land$$
+* `NOT` pznaczonego przez $$\neg$$
 
 | `A` | `B` | `$A \lor B$` |
 |---|---|-------|
@@ -38,7 +38,7 @@ Krótkie przypomnienie jak przedstawiać liczby w postaci binarnej:
 Każdy bit oznacza kolejną potęgę 2.
 
 Jaką liczbę przedstawiono na rysunku?
-> ! `$2^0 + 2^3 + 2^4 + 2^6 = 89$`
+>!  `$2^0 + 2^3 + 2^4 + 2^6 = 89$`
 
 ![bity jako potęgi dwójki](https://miro.medium.com/max/804/1*O5DcmmXADTdQCNgYYw7Qpw.png)
 
