@@ -57,6 +57,16 @@ $$C_1 = (A \lor B) \land \neg(A \land B) $$
 
 $$C_2 = (A \land B)$$
 
+----------------------------
+
+## Symulator
+Użyjemy programu do symulowania bramek logicznych. 
+
+[LINK](https://sebastian.itch.io/digital-logic-sim)
+
+## Symulator online
+[LINK](https://www.falstad.com/circuit/circuitjs.html)
+
 
 
 
