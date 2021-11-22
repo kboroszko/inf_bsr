@@ -18,4 +18,4 @@ niego kolejne elementy.
 Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 ### Lista tematów
-1. [Bramki Logiczne](/inf_bsr/klasa2/temat1.md)
+1. [Bramki Logiczne](/inf_bsr/klasa2/temat1.html)
