@@ -32,7 +32,8 @@ Spróbuj przedstawić `OR, NAND, XOR, XNOR` jako kombinację `AND` i `NOT`.
 Teraz zastanówmy się w jaki sposób można dodawać liczby traktując je jako wyrażenia
 logiczne.
 
-##Liczby binarne
+## Liczby binarne
+
 Krótkie przypomnienie jak przedstawiać liczby w postaci binarnej:
 Każdy bit oznacza kolejną potęgę 2.
 
@@ -45,30 +46,49 @@ Jaką liczbę przedstawiono na rysunku?
 ![bity jako potęgi dwójki](https://miro.medium.com/max/804/1*O5DcmmXADTdQCNgYYw7Qpw.png)
 
 ## Dodawanie liczb binarnych
+
 Teraz weźmy dwie liczby w postaci binarnej i spróbujmy napisać wyrażenie logiczne które
-będzie równe ich wynikowi. Pierwsza liczba A jest reprezentowana przez jeden
-bit: $$A_1$$, druga B tak samo: $$B_1$$.
+będzie równe ich wynikowi. Pierwsza liczba A jest reprezentowana przez jeden bit:
+$$A_1$$, druga B tak samo: $$B_1$$.
 
 Dodajemy liczby pod kreską tak jak liczby dziesiętne w podstawówce. Jeśli obydwa bity
 mają wartość 1, przenosimy 1 do kolejnej kolumny.
 
 Wynik opiszemy w dwóch bitach C = $$C_2C_1$$.
 
-
- $$C_1 = (A \lor B) \land \neg(A \land B) $$.
- $$C_2 = (A \land B)$$.
+$$C_1 = (A \lor B) \land \neg(A \land B) $$. $$C_2 = (A \land B)$$.
 
 ----------------------------
 
 ## Symulator
-Użyjemy programu do symulowania bramek logicznych. 
+
+Użyjemy programu do symulowania bramek logicznych.
 
 [LINK](https://sebastian.itch.io/digital-logic-sim)
 
 ## Symulator online
+
 [LINK](https://www.falstad.com/circuit/circuitjs.html)
 
+---------------------------
 
+Dodawanie liczb jest realizowane za pomocą bramki która ma 3 wejścia i 2 wyjścia które
+omawialiśmy na lekcji.
+`A, B, C` oraz wyjścia `W, C'`
 
+Napisaliśmy sobie wyrażenia które reprezentują `W` i `C'`
+$$ W = (\neg A \land XOR(B,C)) \lor (A \land \neg XOR(B,C)) $$ $$ C' = (\neg A \land (B
+\lor C)) \lor (A \land (B \lor C)) $$
+
+### Praca domowa:
+Ściągnąć symulator i zrobić dwie bramki o nazwie WYN, CPR które mają po 3 wejścia i
+jedno wyjście i realizują te dwie operacje
+
+### Oddawanie pracy domowej:
+Przynieść na pendrivie folder z projektem.
+
+Na windowsie projekty zapisywane są w folderze:
+
+`AppData\LocalLow\Sebastian Lague\Digital Logic Sim\SaveData`
 
 
