@@ -95,9 +95,9 @@ Na windowsie projekty zapisywane są w folderze:
 
 Mój adres mailowy wyślę Wam na discordzie.
 
-## Zadania dodatkowe:
+# Zadania dodatkowe:
 
-> 1. Operacje logiczne:
+## Operacje logiczne:
 
 ### Zadanie 1.1
 Spróbuj zapisać za pomocą wyrażeń logicznych $$\land, \lor, \neg$$ następujące wyrażenia:
@@ -154,7 +154,7 @@ c. XOR
 | 1   | 1   | 0        |
 
 
-> 2. Liczby binarne
+## 2. Liczby binarne
 
 ### Zadanie 2.1
 Zapisz następujące liczby w postaci binarnej:
