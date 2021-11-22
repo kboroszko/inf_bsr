@@ -77,18 +77,23 @@ omawialiśmy na lekcji.
 `A, B, C` oraz wyjścia `W, C'`
 
 Napisaliśmy sobie wyrażenia które reprezentują `W` i `C'`
-$$ W = (\neg A \land XOR(B,C)) \lor (A \land \neg XOR(B,C)) $$ $$ C' = (\neg A \land (B
-\lor C)) \lor (A \land (B \lor C)) $$
 
-### Praca domowa:
+$$ W = (\neg A \land XOR(B,C)) \lor (A \land \neg XOR(B,C)) $$ 
+
+$$ C' = (\neg A \land (B \lor C)) \lor (A \land (B \lor C)) $$
+
+## Praca domowa:
 Ściągnąć symulator i zrobić dwie bramki o nazwie WYN, CPR które mają po 3 wejścia i
-jedno wyjście i realizują te dwie operacje
+jedno wyjście i realizują te dwie operacje.
 
 ### Oddawanie pracy domowej:
-Przynieść na pendrivie folder z projektem.
+Przynieść na pendrivie/wysłaś maile zzipowany folder z projektem.
 
 Na windowsie projekty zapisywane są w folderze:
 
 `AppData\LocalLow\Sebastian Lague\Digital Logic Sim\SaveData`
+
+<!-- Żeby łatwo się tam dostać przekopiuj to do pasku adresu w eksploratorze: -->
+
 
 
