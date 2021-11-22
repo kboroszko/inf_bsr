@@ -103,6 +103,7 @@ Mój adres mailowy wyślę Wam na discordzie.
 Spróbuj zapisać za pomocą wyrażeń logicznych $$\land, \lor, \neg$$ następujące wyrażenia:
 
 a. Implikacja: $$ \implies $$
+
 | A   | B   | $$A \implies B$$ |
 | --- | --- | ---------------- |
 | 0   | 0   | 1                |
@@ -111,6 +112,7 @@ a. Implikacja: $$ \implies $$
 | 1   | 1   | 1                |
 
 b. XOR
+
 | A   | B   | XOR(A,B) |
 | --- | --- | -------- |
 | 0   | 0   | 0        |
