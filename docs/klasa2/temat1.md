@@ -1,6 +1,6 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-# Lekcja 1
+# Temat 1 - Bramki logiczne
 
 Koncepcja komputera zaczęła się od przetważania wyrażeń logicznych.
 
@@ -27,11 +27,12 @@ Zacznijmy od najprostrzych wyrażeń:
 Teraz zwróćmy uwagę na to że każde wyrażenie można przedstawić za pomocą dwóch
 operatorów: AND i NOT.
 
-Spróbuj przedstawić OR jako kombinację AND i NOT.
+Spróbuj przedstawić `OR, NAND, XOR, XNOR` jako kombinację `AND` i `NOT`.
 
 Teraz zastanówmy się w jaki sposób można dodawać liczby traktując je jako wyrażenia
 logiczne.
 
+##Liczby binarne
 Krótkie przypomnienie jak przedstawiać liczby w postaci binarnej:
 Każdy bit oznacza kolejną potęgę 2.
 
@@ -43,6 +44,7 @@ Jaką liczbę przedstawiono na rysunku?
 
 ![bity jako potęgi dwójki](https://miro.medium.com/max/804/1*O5DcmmXADTdQCNgYYw7Qpw.png)
 
+## Dodawanie liczb binarnych
 Teraz weźmy dwie liczby w postaci binarnej i spróbujmy napisać wyrażenie logiczne które
 będzie równe ich wynikowi. Pierwsza liczba A jest reprezentowana przez jeden
 bit: $$A_1$$, druga B tak samo: $$B_1$$.
@@ -53,9 +55,8 @@ mają wartość 1, przenosimy 1 do kolejnej kolumny.
 Wynik opiszemy w dwóch bitach C = $$C_2C_1$$.
 
 
-$$C_1 = (A \lor B) \land \neg(A \land B) $$
-
-$$C_2 = (A \land B)$$
+ $$C_1 = (A \lor B) \land \neg(A \land B) $$.
+ $$C_2 = (A \land B)$$.
 
 ----------------------------
 

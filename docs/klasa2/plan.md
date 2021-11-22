@@ -12,10 +12,10 @@ Chcemy zrozumieć:
 Każda lekcja będzie się zaczynała od krótkiego powtórzenia. Za odpowiedź można dostać +
 albo -.
 
-
 Potem będzie trochę teorii i zabawy z arduino - Będziemy budować timer i stopniowo dodawać do
 niego kolejne elementy.
 
-Na koniec sprzątamy, tak żeby napewno wszyscy zdążyli.
+Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
-
+### Lista tematów
+1. [Bramki Logiczne](/klasa2/temat1.md)
