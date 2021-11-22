@@ -124,6 +124,7 @@ Spróbuj zapisać za pomocą **tylko** wyrażeń logicznych $$\lor, \neg$$ nast�
 
 
 a. AND
+
 | A   | B   | $$A \land B$$ |
 | --- | --- | ------------- |
 | 0   | 0   | 0             |
@@ -133,6 +134,7 @@ a. AND
 
 
 b. Implikacja: $$ \implies $$
+
 | A   | B   | $$A \implies B$$ |
 | --- | --- | ---------------- |
 | 0   | 0   | 1                |
@@ -141,6 +143,7 @@ b. Implikacja: $$ \implies $$
 | 1   | 1   | 1                |
 
 c. XOR
+
 | A   | B   | XOR(A,B) |
 | --- | --- | -------- |
 | 0   | 0   | 0        |
