@@ -10,19 +10,19 @@ Zacznijmy od najprostrzych wyrażeń:
 * `AND`oznaczonego przez $$\land$$
 * `NOT` pznaczonego przez $$\neg$$
 
-| A | B | $$A \lor B$$ |
-|---|---|-------|
-| 0 | 0 | 0     |
-| 0 | 1 | 1     |
-| 1 | 0 | 1     |
-| 1 | 1 | 1     |
+| A   | B   | $$A \lor B$$ |
+| --- | --- | ------------ |
+| 0   | 0   | 0            |
+| 0   | 1   | 1            |
+| 1   | 0   | 1            |
+| 1   | 1   | 1            |
 
-| A | B | $$A \land B$$ |
-|---|---|-------|
-| 0 | 0 | 0     |
-| 0 | 1 | 0     |
-| 1 | 0 | 0     |
-| 1 | 1 | 1     |
+| A   | B   | $$A \land B$$ |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | 0             |
+| 1   | 0   | 0             |
+| 1   | 1   | 1             |
 
 Teraz zwróćmy uwagę na to że każde wyrażenie można przedstawić za pomocą dwóch
 operatorów: AND i NOT.
@@ -82,18 +82,97 @@ $$ W = (\neg A \land XOR(B,C)) \lor (A \land \neg XOR(B,C)) $$
 
 $$ C' = (\neg A \land (B \lor C)) \lor (A \land (B \lor C)) $$
 
-## Praca domowa:
+# Praca domowa:
 Ściągnąć symulator i zrobić dwie bramki o nazwie WYN, CPR które mają po 3 wejścia i
 jedno wyjście i realizują te dwie operacje.
 
 ### Oddawanie pracy domowej:
-Przynieść na pendrivie/wysłaś maile zzipowany folder z projektem.
+Przynieść na pendrivie/wysłać mi mailem zzipowany folder z projektem.
 
 Na windowsie projekty zapisywane są w folderze:
 
 `AppData\LocalLow\Sebastian Lague\Digital Logic Sim\SaveData`
 
-<!-- Żeby łatwo się tam dostać przekopiuj to do pasku adresu w eksploratorze: -->
+Mój adres mailowy wyślę Wam na discordzie.
+
+## Zadania dodatkowe:
+
+> 1. Operacje logiczne:
+
+### Zadanie 1.1
+Spróbuj zapisać za pomocą wyrażeń logicznych $$\land, \lor, \neg$$ następujące wyrażenia:
+
+a. Implikacja: $$ \implies $$
+| A   | B   | $$A \implies B$$ |
+| --- | --- | ---------------- |
+| 0   | 0   | 1                |
+| 0   | 1   | 1                |
+| 1   | 0   | 0                |
+| 1   | 1   | 1                |
+
+b. XOR
+| A   | B   | XOR(A,B) |
+| --- | --- | -------- |
+| 0   | 0   | 0        |
+| 0   | 1   | 1        |
+| 1   | 0   | 1        |
+| 1   | 1   | 0        |
+
+### Zadanie 1.2
+Spróbuj zapisać za pomocą **tylko** wyrażeń logicznych $$\lor, \neg$$ następujące wyrażenia:
 
 
 
+a. AND
+| A   | B   | $$A \land B$$ |
+| --- | --- | ------------- |
+| 0   | 0   | 0             |
+| 0   | 1   | 0             |
+| 1   | 0   | 0             |
+| 1   | 1   | 1             |
+
+
+b. Implikacja: $$ \implies $$
+| A   | B   | $$A \implies B$$ |
+| --- | --- | ---------------- |
+| 0   | 0   | 1                |
+| 0   | 1   | 1                |
+| 1   | 0   | 0                |
+| 1   | 1   | 1                |
+
+c. XOR
+| A   | B   | XOR(A,B) |
+| --- | --- | -------- |
+| 0   | 0   | 0        |
+| 0   | 1   | 1        |
+| 1   | 0   | 1        |
+| 1   | 1   | 0        |
+
+
+> 2. Liczby binarne
+
+### Zadanie 2.1
+Zapisz następujące liczby w postaci binarnej:
+
+| dziesiętne | Binarne   |
+| ---------- | --------- |
+| 1          | 0000 0001 |
+| 3          | 0000 0011 |
+| 4          | 0000 0100 |
+| 7          | ?         |
+| 12         | ?         |
+| 44         | ?         |
+| 56         | ?         |
+| 17         | ?         |
+| 342        | ?         |
+
+### Zadanie 2.2
+Dodaj liczby w postaci binarnej (pod kreską) i sprawdź wynik:
+
+
+| działania |
+| --------- |
+| 1  + 4    |
+| 3   + 2   |
+| 7   + 12  |
+| 15   +7   |
