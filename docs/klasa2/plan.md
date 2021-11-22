@@ -19,3 +19,4 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 ### Lista tematów
 1. [Bramki Logiczne](/klasa2/temat1.md)
+2. [klasa 3](/klasa3/klasa3.md)
