@@ -80,7 +80,7 @@ Napisaliśmy sobie wyrażenia które reprezentują `W` i `C'`
 
 $$ W = (\neg A \land XOR(B,C)) \lor (A \land \neg XOR(B,C)) $$ 
 
-$$ C' = (\neg A \land (B \lor C)) \lor (A \land (B \lor C)) $$
+$$ C' = (\neg A \land (B \land C)) \lor (A \land (B \lor C)) $$
 
 # Praca domowa:
 Ściągnąć symulator i zrobić dwie bramki o nazwie WYN, CPR które mają po 3 wejścia i
