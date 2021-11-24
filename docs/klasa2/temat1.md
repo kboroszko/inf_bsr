@@ -181,3 +181,6 @@ Dodaj liczby w postaci binarnej (pod kreską) i sprawdź wynik:
 | 3   + 2   |
 | 7   + 12  |
 | 15   +7   |
+
+# Rozwiązanie pracy domowej
+[dodawanie_lekcja.zip](/temat1/dodawanie_lekcja.zip)
