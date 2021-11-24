@@ -19,4 +19,25 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 ### Lista tematów
 1. [Bramki Logiczne](/temat1.md)
-1. [Procesor](/temat2.md)
+2. [Procesor](/temat2.md)
+
+
+
+### Wyniki
+
+1. <!-- Borys Czajkowski--> 
+2. <!-- Karolina Gąbka--> 
+3. <!-- Tomasz Gębarski--> 
+4. <!-- Robert Jankowski--> 
+5. <!-- Piotr Ługowski--> 
+6. <!-- Michał Mackiewicz--> 
+7. <!-- Błażej Majchrzak--> 
+8. <!-- Julia Marszałek-Filipek--> 
+9. <!-- Jan Mazurkiewicz--> 
+10. <!-- Lena Olejnik--> 
+11. <!-- Irena Pietrzak--> 
+12. <!-- Karolina Radziejewska--> 
+13. <!-- Piotr Rybiec--> 
+14. <!-- Aleksander Szczotka--> 
+15. <!-- Stanisław Szyszkowski--> 
+16. <!-- Leon Tarchalski--> 
