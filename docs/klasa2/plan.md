@@ -19,3 +19,4 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 ### Lista tematów
 1. [Bramki Logiczne](/temat1.md)
+1. [Procesor](/temat2.md)
