@@ -12,32 +12,33 @@ Chcemy zrozumieć:
 Każda lekcja będzie się zaczynała od krótkiego powtórzenia. Za odpowiedź można dostać +
 albo -.
 
-Potem będzie trochę teorii i zabawy z arduino - Będziemy budować timer i stopniowo dodawać do
-niego kolejne elementy.
+Potem będzie trochę teorii i zabawy z arduino - Będziemy budować timer i stopniowo
+dodawać do niego kolejne elementy.
 
 Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 ### Lista tematów
+
 1. [Bramki Logiczne](/temat1.md)
 2. [Procesor](/temat2.md)
 
-
-
 ### Wyniki
 
-1. <!-- Borys Czajkowski--> 
-2. <!-- Karolina Gąbka--> 
-3. <!-- Tomasz Gębarski--> 
-4. <!-- Robert Jankowski--> 
-5. <!-- Piotr Ługowski--> 
-6. <!-- Michał Mackiewicz--> 
-7. <!-- Błażej Majchrzak--> 
-8. <!-- Julia Marszałek-Filipek--> 
-9. <!-- Jan Mazurkiewicz--> 
-10. <!-- Lena Olejnik--> 
-11. <!-- Irena Pietrzak--> 
-12. <!-- Karolina Radziejewska--> 
-13. <!-- Piotr Rybiec--> 
-14. <!-- Aleksander Szczotka--> 
-15. <!-- Stanisław Szyszkowski--> 
-16. <!-- Leon Tarchalski--> 
+| Numer                              | prace domowe    |
+|------------------------------------|-----------------|
+| 1. <!-- Borys Czajkowski-->        |       `0`       |
+| 2. <!-- Karolina Gąbka-->          |       `0`       |
+| 3. <!-- Tomasz Gębarski-->         |       `0`       |
+| 4. <!-- Robert Jankowski-->        |       `-`       |
+| 5. <!-- Piotr Ługowski-->          |       `-`       |
+| 6. <!-- Michał Mackiewicz-->       |       `+`       |
+| 7. <!-- Błażej Majchrzak-->        |       `+`       |
+| 8. <!-- Julia Marszałek-Filipek--> |       `-`       |
+| 9. <!-- Jan Mazurkiewicz-->        |       `+`       |
+| 10. <!-- Lena Olejnik-->           |       `-`       |
+| 11. <!-- Irena Pietrzak-->         |       `-`       |
+| 12. <!-- Karolina Radziejewska-->  |       `0`       |
+| 13. <!-- Piotr Rybiec-->           |       `+`       |
+| 14. <!-- Aleksander Szczotka-->    |       `-`       |
+| 15. <!-- Stanisław Szyszkowski-->  |       `+`       |
+| 16. <!-- Leon Tarchalski-->        |       `-`       |
