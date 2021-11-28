@@ -21,6 +21,7 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 1. [Bramki Logiczne](/temat1.md)
 2. [Procesor](/temat2.md)
+3. [Arduino 1](/temat3.md)
 
 ### Wyniki
 
