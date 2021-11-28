@@ -59,7 +59,7 @@ Z każdym z równoległych portów we/wy: A,B,C,D powiązane są po trzy rejestr
 - `PINx` - wartość tego portu zawsze odpowiada stanowi na wyjściu 1 - jeśli stan wysoki, 0 jeśli stan niski.
 
 ### PULL-UP
-![guzik podłączony do pull-up](http://hobby.abxyz.bplaced.net/img/art002_przycisk.png)
+![guzik podłączony do pull-up](temat3/pull-up.png)
 
 
 Instrukcja `pinMode()` pozwala na ustawienie odpowiedniej wartośći w odpowiednim rejestrze `DDRx` (A,B,C lub D).
@@ -102,3 +102,11 @@ void loop()
 
 - Czy counter może rosnąć w nieskończoność?
 - Zmień wartość opóźnienia i sprawdź co się stanie gdy counter przekroczy wartość 255?
+
+## wyświetlanie cyfr
+
+Datasheet:
+
+![wyświetlacz segmentowy](https://protosupplies.com/wp-content/uploads/2018/02/7-Segment-CA-Pinout-2.jpg)
+
+
