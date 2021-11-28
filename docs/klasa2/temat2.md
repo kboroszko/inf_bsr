@@ -4,7 +4,7 @@
 
 Little Man Computer - LMC to uproszczony model procesora który ma tylko najbardziej niezbędne operacje.
 
-~[LMC-schemat](temat2/LMC.png)
+![LMC-schemat](temat2/LMC.png)
 
 Traktujemy działanie CPU tak jakby w środku siedział mały ludzik, który ma kilka koszyczków:
 
