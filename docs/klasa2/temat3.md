@@ -109,4 +109,350 @@ Datasheet:
 
 ![wyświetlacz segmentowy](https://protosupplies.com/wp-content/uploads/2018/02/7-Segment-CA-Pinout-2.jpg)
 
+## używając kodu Arduino
 
+```c++
+#include <Arduino.h>
+
+#define PinA 1
+#define PinB 2
+#define PinC 3
+#define PinD 4
+#define PinE 5
+#define PinF 6
+#define PinG 7
+
+void display(uint8_t x){
+    if(x == 0){
+        //display 0
+        return;
+    }
+    if(x == 1){
+        //display 1
+        return;
+    }
+    if(x == 2){
+        //display 2
+        return;
+    }
+    if(x == 3){
+        //display 3
+        return;
+    }
+    if(x == 4){
+        //display 4
+        return;
+    }
+    if(x == 5){
+        //display 5
+        return;
+    }
+    if(x == 6){
+        //display 6
+        return;
+    }
+    if(x == 7){
+        //display 7
+        return;
+    }
+    if(x == 8){
+        //display 8
+        return;
+    }
+    if(x == 9){
+        //display 9
+        return;
+    }
+    // display nothing
+    digitalWrite(PinA, HIGH);
+    digitalWrite(PinB, HIGH);
+    digitalWrite(PinC, HIGH);
+    digitalWrite(PinD, HIGH);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, HIGH);
+    digitalWrite(PinG, HIGH);
+    return;
+}
+
+
+uint8_t counter;
+
+void setup()
+{
+  // put your setup code here, to run once:
+  pinMode(PinA, OUTPUT);
+  pinMode(PinB, OUTPUT);
+  pinMode(PinC, OUTPUT);
+  pinMode(PinD, OUTPUT);
+  pinMode(PinE, OUTPUT);
+  pinMode(PinF, OUTPUT);
+  pinMode(PinG, OUTPUT);
+  
+  display(10);
+  counter = 0;
+}
+
+void loop()
+{
+  // put your main code here, to run repeatedly:
+  delay(1000);            // waits for a second
+  counter = (counter + 1) % 11;
+  display(counter);
+}
+
+```
+
+
+## używając rejestrów
+
+```c++
+#include <Arduino.h>
+
+#define ONE   0b11100111
+#define TWO   0b01001001
+#define THREE 0b01000011
+#define FOUR  0b00100111
+#define FIVE  0b00010011
+#define SIX   0b00010001
+#define SEVEN 0b11000111
+#define EIGHT 0b00000001
+#define NINE  0b00000011
+#define ZERO  0b10000001
+
+void display(int x){
+  PORTD &= 0b00000001;
+  if(x == 0){ 
+    PORTD |= ZERO;
+    return;
+  }
+  if(x == 1){ 
+    PORTD |= ONE;
+    return;
+  }
+  if(x == 2){
+    PORTD |= TWO;
+    return;
+  }
+  if(x == 3){ 
+    PORTD |= THREE;
+    return;
+  }
+  if(x == 4){ 
+    PORTD |= FOUR;
+    return;
+  }
+  if(x == 5){ 
+    PORTD |= FIVE;
+    return;
+  }
+  if(x == 6){ 
+    PORTD |= SIX;
+    return;
+  }
+  if(x == 7){ 
+    PORTD |= SEVEN;
+    return;
+  }
+  if(x == 8){ 
+    PORTD |= EIGHT;
+    return;
+  }
+  if(x == 9){ 
+    PORTD |= NINE;
+    return;
+  }
+  PORTD |= 0b11111110;
+}
+
+uint8_t counter;
+
+void setup()
+{
+  // set port D as output
+  DDRD = 0b11111110;
+  counter = 0;
+}
+
+void loop()
+{
+  // put your main code here, to run repeatedly:
+  counter = (counter + 1)%11;
+  display(counter);
+  delay(200);
+}
+```
+
+
+
+
+
+<!-- Rozwiązanie:
+```c++
+#include <Arduino.h>
+
+#define PinA 7
+#define PinB 6
+#define PinC 5
+#define PinD 4
+#define PinE 3
+#define PinF 8
+#define PinG 10
+
+void display(uint8_t x)
+{
+  if (x == 0)
+  {
+    //display 0
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, LOW);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, HIGH);
+    return;
+  }
+  if (x == 1)
+  {
+    //display 1
+    digitalWrite(PinA, HIGH);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, HIGH);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, HIGH);
+    digitalWrite(PinG, HIGH);
+    return;
+  }
+  if (x == 2)
+  {
+    //display 2
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, HIGH);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, LOW);
+    digitalWrite(PinF, HIGH);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 3)
+  {
+    //display 3
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, HIGH);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 4)
+  {
+    //display 4
+    digitalWrite(PinA, HIGH);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, HIGH);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 5)
+  {
+    //display 5
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, HIGH);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 6)
+  {
+    //display 6
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, HIGH);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, LOW);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 7)
+  {
+    //display 7
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, HIGH);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, HIGH);
+    digitalWrite(PinG, HIGH);
+    return;
+  }
+  if (x == 8)
+  {
+    //display 8
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, LOW);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  if (x == 9)
+  {
+    //display 9
+    digitalWrite(PinA, LOW);
+    digitalWrite(PinB, LOW);
+    digitalWrite(PinC, LOW);
+    digitalWrite(PinD, LOW);
+    digitalWrite(PinE, HIGH);
+    digitalWrite(PinF, LOW);
+    digitalWrite(PinG, LOW);
+    return;
+  }
+  // display nothing
+  digitalWrite(PinA, HIGH);
+  digitalWrite(PinB, HIGH);
+  digitalWrite(PinC, HIGH);
+  digitalWrite(PinD, HIGH);
+  digitalWrite(PinE, HIGH);
+  digitalWrite(PinF, HIGH);
+  digitalWrite(PinG, HIGH);
+  return;
+}
+
+uint8_t counter;
+
+void setup()
+{
+  // put your setup code here, to run once:
+  pinMode(PinA, OUTPUT);
+  pinMode(PinB, OUTPUT);
+  pinMode(PinC, OUTPUT);
+  pinMode(PinD, OUTPUT);
+  pinMode(PinE, OUTPUT);
+  pinMode(PinF, OUTPUT);
+  pinMode(PinG, OUTPUT);
+
+  display(10);
+  counter = 0;
+}
+
+void loop()
+{
+  // put your main code here, to run repeatedly:
+  counter = (counter + 1) % 11;
+  display(counter);
+  delay(200);
+}
+``` -->
