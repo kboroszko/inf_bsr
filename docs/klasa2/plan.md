@@ -31,15 +31,15 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 | 2. <!-- Karolina Gąbka-->          |       `0`       |
 | 3. <!-- Tomasz Gębarski-->         |       `0`       |
 | 4. <!-- Robert Jankowski-->        |       `-`       |
-| 5. <!-- Piotr Ługowski-->          |       `-`       |
+| 5. <!-- Piotr Ługowski-->          |       `-` `+`      |
 | 6. <!-- Michał Mackiewicz-->       |       `+`       |
 | 7. <!-- Błażej Majchrzak-->        |       `+`       |
-| 8. <!-- Julia Marszałek-Filipek--> |       `-`       |
+| 8. <!-- Julia Marszałek-Filipek--> |       `p` `+`      |
 | 9. <!-- Jan Mazurkiewicz-->        |       `+`       |
-| 10. <!-- Lena Olejnik-->           |       `-`       |
-| 11. <!-- Irena Pietrzak-->         |       `-`       |
+| 10. <!-- Lena Olejnik-->           |       `0`       |
+| 11. <!-- Irena Pietrzak-->         |       `-` `+`      |
 | 12. <!-- Karolina Radziejewska-->  |       `0`       |
-| 13. <!-- Piotr Rybiec-->           |       `+`       |
+| 13. <!-- Piotr Rybiec-->           |       `+` `+`      |
 | 14. <!-- Aleksander Szczotka-->    |       `-`       |
 | 15. <!-- Stanisław Szyszkowski-->  |       `+`       |
 | 16. <!-- Leon Tarchalski-->        |       `-`       |

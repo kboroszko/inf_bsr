@@ -9,7 +9,7 @@ Na płytce znajduje się mikro-procesor formy ATmel - ATmega328P.
 Używamy płytki arduino ponieważ w ogromny sposób ułatwia nam pracę z mikrokontrolerem. Nie musimy się martwić o podłączanie zasilania, o kwarc i o programowanie mikrokontrolera. Arduino robi wszystko za nas, dostarcza też nam prosty interfejs komunikacji z mikro-kontrolerem przez USART, co bardzo ułatwia pracę. Ale o tym później. 
 
 Ta płytka ma następujący pin-out:
-~[arduinoUNO - pinout](https://images.prismic.io/circuito/8e3a980f0f964cc539b4cbbba2654bb660db6f52_arduino-uno-pinout-diagram.png?auto=format)
+![arduinoUNO - pinout](https://images.prismic.io/circuito/8e3a980f0f964cc539b4cbbba2654bb660db6f52_arduino-uno-pinout-diagram.png?auto=format)
 
 ## Instalacja 
 Będziemy używać VScode z dodatkiem PlatformIO IDE. Na ostatniej lekcji instalowaliśmy je na komputerach w sali, ale dla przypomnienia:
