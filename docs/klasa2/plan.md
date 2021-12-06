@@ -23,6 +23,7 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 2. [Procesor](/temat2.md)
 3. [Arduino 1](/temat3.md)
 4. [Arduino 2](/temat4.md)
+4. [Arduino 2](/temat5.md)
 
 ### Wyniki
 
