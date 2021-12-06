@@ -22,6 +22,7 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 1. [Bramki Logiczne](/temat1.md)
 2. [Procesor](/temat2.md)
 3. [Arduino 1](/temat3.md)
+4. [Arduino 2](/temat4.md)
 
 ### Wyniki
 
@@ -37,9 +38,9 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 | 8. <!-- Julia Marszałek-Filipek--> |       `p` `+`      |
 | 9. <!-- Jan Mazurkiewicz-->        |       `+`       |
 | 10. <!-- Lena Olejnik-->           |       `0`       |
-| 11. <!-- Irena Pietrzak-->         |       `-` `+`      |
+| 11. <!-- Irena Pietrzak-->         |       `-` `+``+`      |
 | 12. <!-- Karolina Radziejewska-->  |       `0`       |
-| 13. <!-- Piotr Rybiec-->           |       `+` `+`      |
-| 14. <!-- Aleksander Szczotka-->    |       `-`       |
+| 13. <!-- Piotr Rybiec-->           |       `+` `+` `+`     |
+| 14. <!-- Aleksander Szczotka-->    |       `-``+`       |
 | 15. <!-- Stanisław Szyszkowski-->  |       `+`       |
 | 16. <!-- Leon Tarchalski-->        |       `-`       |
