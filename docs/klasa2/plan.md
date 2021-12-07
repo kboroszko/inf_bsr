@@ -2,6 +2,8 @@ Chcemy zrozumieć jaka jest zasada działania komputera na najprostrzym, najniż
 poziomie. Jak możemy przejść od prostych sygnałów do zaawansowanych urządzeń których
 używamy na codzień.
 
+
+
 Chcemy zrozumieć:
 
 1. jak działa procesor, pamięć, peryferia.
