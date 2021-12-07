@@ -18,7 +18,9 @@ Dane są wysyłane w formie pakietu który wygląda w ten sposób:
 - Następnie master wysyła/odbiera 8 bitów wiadomości po których znów czeka na `ACK/NACK`.
 - Master wysyła/odbiera dane w 8 bitowych pakietach aż stwierdzi że to koniec. Wtedy wysyła znak końca komunikacji.
 
-### Rozumiesz dlaczego ta komunikacja nazywa się master/slave?
+### Pytania:
+- Dlaczego ta komunikacja nazywa się master/slave?
+- Jakie są zalety i wady takiej komunikacji?
 
 <br>
 
