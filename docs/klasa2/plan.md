@@ -26,6 +26,9 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 5. [Timery](/temat5.md)
 6. [Arduino 3](/temat6.md)
 
+## Projekt
+[Link do opisu](/projekt.md)
+
 ### Wyniki
 
 | Numer                              | prace domowe    |
