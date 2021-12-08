@@ -4,7 +4,7 @@ Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia t
 
 **Ale pamiętaj!** Wybranie trudniejszego projektu nie jest usprawiedliwieniem żeby go nie dokończyć! Zastanów się czy wolisz 100% pkt za prostrzy projekt czy 30% za trudniejszy.
 
-## Timer (wersja podstawowa) `5 pkt`:
+## Timer (wersja podstawowa) `10 pkt`:
 Zrób timer, który ma 3 guziki: `+`, `-` i `start`.
 używając `+` i `-` możemy ustawić czas. 
 Po wciśnięciu `start` zaczynamy odliczanie w dół, a gdy dojdziemy do `0`, timer miga (diodami).
@@ -17,7 +17,7 @@ Jako ekranu możesz użyć ekranu komputera i wysyłać czas przez serial port.
 2. przy naciśnięciu *długo* guzika `start` timer przestaje odliczać i resetuje się do jakiegoś ustalonego czasu np. 1 min. `3 pkt`
 3. użyj ekranu LCD do wyświetlania czasu `5 pkt`
 
-## Budzik (wersja rozszerzona) `20 pkt`
+## Budzik (wersja rozszerzona) `18 pkt`
 Zrób zegarek który pozwala ustawić godzinę i wyświetla czas. Powinien posiadać guziki do ustawiania czasu i  rozszerzenia 1 i 3 z wersji podstawowej. Przemyśl jak powinno wyglądać menu do ustawiania czasu i ile powinien mieć guzików.
 
 ### Rozszerzenia do budzika:
