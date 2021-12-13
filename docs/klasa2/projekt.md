@@ -1,8 +1,10 @@
 # Projekt - <span style="color:red">do 22 Grudnia</span>
 
-Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia tej części przedmiotu absolutnie niezbędne jest wykonanie przyjanmniej wersji podstawowej. Oczywiście, im bardziej złożony projekt zrobisz, tym lepiej. Moment chwały, murowany. 
+Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia tej części przedmiotu absolutnie niezbędne jest wykonanie przynajmniej wersji podstawowej. Oczywiście, im bardziej złożony projekt zrobisz, tym lepiej. Moment chwały, murowany. 
 
-**Ale pamiętaj!** Wybranie trudniejszego projektu nie jest usprawiedliwieniem żeby go nie dokończyć! Zastanów się czy wolisz 100% pkt za prostrzy projekt czy 30% za trudniejszy.
+**Ale pamiętaj!** Wybranie trudniejszego projektu nie jest usprawiedliwieniem żeby go nie dokończyć! Zastanów się czy wolisz 100% pkt za prostszy projekt czy 30% za trudniejszy.
+
+W razie pytań zawsze możesz napisać do mnie przez IDU/email/discord. Chętnie pomogę.
 
 ## Timer (wersja podstawowa) `10 pkt`:
 Zrób timer, który ma 3 guziki: `+`, `-` i `start`.

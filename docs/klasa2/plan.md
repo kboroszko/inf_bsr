@@ -57,3 +57,7 @@ Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprez
 ## Projekt
 [Link do opisu](/projekt.md)
 
+# Coś nie tak?
+Jeśli masz z czymś problem, czegoś nie rozumiesz, albo coś wydają Ci się bez sensu:
+
+**Napisz do mnie** przez IDU/email/discord. Chętnie pomogę.
