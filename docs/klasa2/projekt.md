@@ -1,4 +1,4 @@
-# Projekt - <span style="color=red">do 22 Grudnia</span>
+# Projekt - <span style="color:red">do 22 Grudnia</span>
 
 Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia tej części przedmiotu absolutnie niezbędne jest wykonanie przyjanmniej wersji podstawowej. Oczywiście, im bardziej złożony projekt zrobisz, tym lepiej. Moment chwały, murowany. 
 
@@ -26,3 +26,9 @@ Zrób zegarek który pozwala ustawić godzinę i wyświetla czas. Powinien posia
 3. Coś ekstra co nie zostało tu opisane! `? pkt`
 
 
+# Zaliczanie projektu:
+
+Opisane dokładnie na [poprzedniej stronie](/plan.md). Trzeba **wysłać kod do 8:00 22.12.2021** na mojego maila i zaprezentować działający projekt online o wcześniej umówionej godzinie.
+
+
+![warning_sign](https://media3.giphy.com/media/Y5wlazC8lSVuU/giphy.gif?cid=ecf05e47a5es3ktuo49tolvdd7pftefap3rl7013lxp53vrj&rid=giphy.gif&ct=g)

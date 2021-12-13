@@ -19,7 +19,7 @@ dodawać do niego kolejne elementy.
 
 Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
-# Zaliczenie przedmiotu 22 Grudnia:
+# Zaliczenie przedmiotu <span style="color:red">22 Grudnia</span>:
 Żeby zaliczyć tą część przedmiotu trzeba wykonać jeden z [omówionych projektów](/projekt.md) i **zaprezentować go** do 22.12.2021. Ponieważ od 20.12.2021 wchodzi nauczanie zdalne, projekty też muszą zostać ocenione w ten sposób. W tym celu powstała lista godzin widoczna poniżej. Żeby się na niej znaleźć trzeba wpisać się długopisem na listę którą będę miał ze sobą w ten poniedziałek (13.12.2021) i środę (15.12.2021).
 
 Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprezentować tylko działanie układu, **kod aplikacji trzeba wysłać do godziny 8:00 na mój mail**, na który wysyłaliście już prace domowe i który podawałem na discord.
@@ -42,6 +42,8 @@ Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprez
 | 15:30 - 15:40 |           |
 | 15:40 - 15:50 |           |
 | 15:50 - 16:00 |           |
+
+*Dosclaimer: Na listę wpisuję Wasze pseudonimy a nie nazwiska bo RODO.*
 
 ### Lista tematów
 
