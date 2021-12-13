@@ -6,6 +6,22 @@ Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia t
 
 W razie pytań zawsze możesz napisać do mnie przez IDU/email/discord. Chętnie pomogę.
 
+> Przypominam Wam że do zrobienia jest projekt. Na stronie jest opisane dokładnie co jest do zrobienia. 
+Wszystkim polecam zrobić wersję podstawową jak najszybciej i potem dopiero robić rozszerzenia.
+
+>Jeśli nie macie w domu komponentów to weźcie je ze szkoły po wcześniejszym ustaleniu z Jankiem lub Mną. 
+
+> Jeśli jesteście uwięzieni w domu koniecznie napiszcie do mnie tu lub na maila i wymyślimy jak macie zaliczyć ten przedmiot.
+
+> Do wersji podstawowej nie musicie używać LCD ani przerwań, tylko napisać trochę kodu i podłączyć 3 guziki.
+Proszę Was nie zostawiajcie tego na ostatnią chwilę. W razie problemów piszcie do mnie tu lub na maila.
+
+> Jeśli chodzi o przerwania: Arduino ma tylko dwa piny na których obsługuje przerwania (PIN2 i PIN3), zatem jeśli chcecie ich użyć (co nie jest obowiązkowe!):
+> 1. Albo nie używajcie przerwań
+> 2. Albo użyjcie tylko 2 guzików. Trzeba wtedy wymyślić co zrobić zamiast 3 guzika. (Np. wciśnięcie 2 na raz może odpalać timer)
+> 3. Albo zróbcie to co jest opisane w nowym temacie na [stronie o przerwaniach](/interrupts.md). To jest trudniejsze i nie obowiązkowe. Nie robiliśmy tego na lekcji więc nie będę tego wymagał.
+
+
 ## Timer (wersja podstawowa) `10 pkt`:
 Zrób timer, który ma 3 guziki: `+`, `-` i `start`.
 używając `+` i `-` możemy ustawić czas. 
