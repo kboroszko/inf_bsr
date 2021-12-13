@@ -1,4 +1,4 @@
-# Projekt
+# Projekt - <span style="color=red">do 22 Grudnia</span>
 
 Waszym zadaniem będzie zrobienie jednego z wariantów projektu. Do zaliczenia tej części przedmiotu absolutnie niezbędne jest wykonanie przyjanmniej wersji podstawowej. Oczywiście, im bardziej złożony projekt zrobisz, tym lepiej. Moment chwały, murowany. 
 
