@@ -24,24 +24,24 @@ Na koniec sprzątamy, tak żeby na pewno wszyscy zdążyli.
 
 Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprezentować tylko działanie układu, **kod aplikacji trzeba wysłać do godziny 8:00 na mój mail**, na który wysyłaliście już prace domowe i który podawałem na discord.
 
-| Godzina       | Pseudonim |
-|---------------|-----------|
-| 8:00 - 8:10   |           |
-| 8:10 - 8:20   |           |
-| 8:20 - 8:30   |           |
-| 8:30 - 8:40   |           |
-| 8:40 - 8:50   |           |
-| 8:50 - 9:00   |           |
-| 9:00 - 9:10   |           |
-| 9:10 - 9:20   |           |
-| 9:20 - 9:30   |           |
-| 9:30 - 9:40   |           |
-| 9:40 - 9:50   |           |
-| 9:50 - 10:00  |           |
-| 15:20 - 15:30 |           |
-| 15:30 - 15:40 |           |
-| 15:40 - 15:50 |           |
-| 15:50 - 16:00 |           |
+| Godzina       | Pseudonim      |
+| ------------- | -------------- |
+| 8:00 - 8:10   |                |
+| 8:10 - 8:20   |                |
+| 8:20 - 8:30   |                |
+| 8:30 - 8:40   |                |
+| 8:40 - 8:50   |                |
+| 8:50 - 9:00   | Aero_Rocket    |
+| 9:00 - 9:10   | Agent Mosadu   |
+| 9:10 - 9:20   | Robcio         |
+| 9:20 - 9:30   | Shadow_z_az    |
+| 9:30 - 9:40   | Arizona Ranger |
+| 9:40 - 9:50   | menon          |
+| 9:50 - 10:00  | ip_address     |
+| 15:20 - 15:30 | Blaak          |
+| 15:30 - 15:40 | TTGAMES        |
+| 15:40 - 15:50 |                |
+| 15:50 - 16:00 | a1eaiactest    |
 
 *Dosclaimer: Na listę wpisuję Wasze pseudonimy a nie nazwiska bo RODO.*
 
@@ -53,6 +53,7 @@ Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprez
 4. [Arduino 2](/temat4.md)
 5. [Timery](/temat5.md)
 6. [Arduino 3](/temat6.md)
+6. [Przerwania dla wielu guzików](/interrupts.md)
 
 ## Projekt
 [Link do opisu](/projekt.md)

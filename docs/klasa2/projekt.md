@@ -18,6 +18,10 @@ Jako ekranu możesz użyć ekranu komputera i wysyłać czas przez serial port.
 1. zrób debouncing na guzikach. `2 pkt`
 2. przy naciśnięciu *długo* guzika `start` timer przestaje odliczać i resetuje się do jakiegoś ustalonego czasu np. 1 min. `3 pkt`
 3. użyj ekranu LCD do wyświetlania czasu `5 pkt`
+4. użyj przerwań `5 pkt`
+
+### Jak zrobić jedno przerwanie dla wielu guzików?
+Wyjaśnienie [tutaj](/interrupts.md).
 
 ## Budzik (wersja rozszerzona) `18 pkt`
 Zrób zegarek który pozwala ustawić godzinę i wyświetla czas. Powinien posiadać guziki do ustawiania czasu i  rozszerzenia 1 i 3 z wersji podstawowej. Przemyśl jak powinno wyglądać menu do ustawiania czasu i ile powinien mieć guzików.
