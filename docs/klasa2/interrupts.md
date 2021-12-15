@@ -1,5 +1,22 @@
 # Temat dodatkowy!!!
 **Nie musicie tego robić w projektach.** To jest ponad program.
+
+Zamiast tego wystarczy podłączyć guziki do arduino i sprawdzać ich stan instrukcją `digitalRead(int pin)`. Na przykład żeby sprawdzić jaki jest stan pinu numer 5 wystarczy napisać:
+```c++
+digitalRead(5);
+```
+Ta funkcja zwróci 1 jeśli napięcie jest wysokie a 0 jeśli niskie.
+
+Jeśli chcemy zrobić coś tylko jeśli guzik jest wciśnięty (czyli pin zwarty do uziemienia):
+```c++
+if(digitalRead(5) == LOW){
+  // do something to handle button press.
+}
+```
+
+
+
+
 # One interrupt to rule them all
 
 Jak zrobić jedno przerwanie które jest wyzwalane dla wielu guzików?
