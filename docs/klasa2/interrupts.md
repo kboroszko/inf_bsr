@@ -37,51 +37,51 @@ Chcemy wyzwolić przerwanie gdy którykolwiek z guzików jest wciśnięty. W tak
 
 Teraz chcielibyśmy jeszcze żeby mikro-kontroler był w stanie przeczytać wartość odpowiadającą temu który guzik jest wciśnięty, więc dodatkowo podłączymy każdy guzik oddzielnie do jednego pinu arduino:
 
-![arduino guziki](/interrupts/initial.png)
+![arduino guziki](interrupts/initial.png)
 
 Ale czy to wystarczy? Sprawdźmy co się stanie jeśli naciśniemy guzik `G1`. Co będzie podłączone do uziemienia?
 Na tym rysunku zaznaczyłem to co jest podłączone do uziemienia na czerwono:
 
-![gnd_all_1](/interrupts/gnd_all_1.png)
+![gnd_all_1](interrupts/gnd_all_1.png)
 
 Wszędzie gdzie możemy dojść po kabelkach od GND będzie napięcie 0v. 
 
-![gnd_all_2](/interrupts/gnd_all_2.png)
+![gnd_all_2](interrupts/gnd_all_2.png)
 
 Ale **uwaga!** Idąc po zielonym  a potem fioletowym kabelku możemy dojść dalej!
 
-![gnd_all_3](/interrupts/gnd_all_3.png)
+![gnd_all_3](interrupts/gnd_all_3.png)
 
 I jeszcze dalej!
 
-![gnd_all_4](/interrupts/gnd_all_4.png)
+![gnd_all_4](interrupts/gnd_all_4.png)
 
 Dlatego jesli teraz sprawdzimy stan pinów `2`, `8`, `9` i `10` wszędzie będzie stan `0`! a wcisneliśmy tylko guzik `G1`!!!
 
 ### Dioda
 Żeby rozwązać ten problem, musimy użyć diody. Diodę oznaczamy tak:
-![dioda](/interrupts/voltage_prop_0.png)
+![dioda](interrupts/voltage_prop_0.png)
 
 Żeby móc prowadzić dalej nasze rozważania zobaczmy jak będzie propagowało się niskie napięcie przez diodę? Przez diodę możemy przejść rysując czerwone kropki tylko od strony pionowej kreski:
-![dioda_1](/interrupts/voltage_prop_1.png)
-![dioda_2](/interrupts/voltage_prop_2.png)
+![dioda_1](interrupts/voltage_prop_1.png)
+![dioda_2](interrupts/voltage_prop_2.png)
 
 
 Spadek napięcia na diodzie możemy uznać za pomijalny, a przez rezystor nie możemy dalej przejść. Tak więc, wszędzie gdzie są czerwone kropki zmierzylibyśmy napięcie `0v`! 
 
 Co jeśli podłączymy diodę odwrotnie?
-![dioda_rev](/interrupts/voltage_prop_rev_0.png)
+![dioda_rev](interrupts/voltage_prop_rev_0.png)
 
 Nie wolno nam przejść przez diodę od drugiej strony. Napięcie będzie się propagowało w ten sposób:
-![dioda_rev_1](/interrupts/voltage_prop_rev_1.png)
+![dioda_rev_1](interrupts/voltage_prop_rev_1.png)
 I tyle.
-![dioda_rev_2](/interrupts/voltage_prop_rev_2.png)
+![dioda_rev_2](interrupts/voltage_prop_rev_2.png)
 
 ### Przerwania dla kilku guzików:
 Skoro wiemy że dioda zatrzyma rozlewanie się czerwonych kropek to teraz musimy zastosować to w praktyce. Jeśli podłączymy przerwanie przez odpowiednio ustawione diody, po wciśnięciu guzika zewrzemy do uziemienia tylko odpowiedni pin i pin przerwania:
-![arduino_diodes](/interrupts/diodes.png)
-![arduino_diodes_1](/interrupts/diodes_1.png)
-![arduino_diodes_2](/interrupts/diodes_2.png)
+![arduino_diodes](interrupts/diodes.png)
+![arduino_diodes_1](interrupts/diodes_1.png)
+![arduino_diodes_2](interrupts/diodes_2.png)
 
 W ten sposób, po wciśnięciu guzika `G1` napięcie zmieni się na niskie tylko na pinie 2 i 8. 
 Jeśli teraz chcemy żeby nasza funkcja obsługująca przerwanie sprawdzała który guzik jest wciśnięty, robimy to sprawdzając co jest wciśnięte wewnątrz tej funkcji.
