@@ -30,7 +30,7 @@ Na prezentację i omówienie projektu będzie 10 min. W tym czasie trzeba zaprez
 | 8:10 - 8:20   |                |
 | 8:20 - 8:30   |                |
 | 8:30 - 8:40   |                |
-| 8:40 - 8:50   |                |
+| 8:40 - 8:50   |  Really        |
 | 8:50 - 9:00   | Aero_Rocket    |
 | 9:00 - 9:10   | Agent Mosadu   |
 | 9:10 - 9:20   | Robcio         |
