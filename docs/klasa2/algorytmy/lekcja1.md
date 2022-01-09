@@ -21,7 +21,7 @@ napisz funkcję która znajduje elementy tablicy które występują dokładnie 2
 
 ### Dodatkowe
 
-`*` Zadanie park https://szkopul.edu.pl/problemset/problem/vFeShEOnczXpanZEaYQpDnus/site/?key=statement
+`*` Zadanie [park](https://szkopul.edu.pl/problemset/problem/vFeShEOnczXpanZEaYQpDnus/site/?key=statement)
 
 
 `**` potęgi liczb naturalnych lepiej niż liniowo.
