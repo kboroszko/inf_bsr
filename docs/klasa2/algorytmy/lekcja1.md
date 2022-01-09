@@ -20,7 +20,10 @@ Przy każdym zadaniu zastanów się jaką złożoność ma Twoje rozwiązanie
 napisz funkcję która znajduje elementy tablicy które występują dokładnie 2 razy. Jaka jest złożoność? uzasadnij.
 
 ### Dodatkowe
+
 `*` Zadanie park https://szkopul.edu.pl/problemset/problem/vFeShEOnczXpanZEaYQpDnus/site/?key=statement
+
+
 `**` potęgi liczb naturalnych lepiej niż liniowo.
 
 ![xkcd](https://imgs.xkcd.com/comics/e_to_the_pi_minus_pi.png)
