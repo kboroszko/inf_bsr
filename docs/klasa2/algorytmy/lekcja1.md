@@ -16,11 +16,12 @@ Przy każdym zadaniu zastanów się jaką złożoność ma Twoje rozwiązanie
 7. napisz funkcję która zwróci listę wszystkich par liter z danego stringa bez powtórzeń, przykład: abbaabababab → [ab], abcbaacbacbabc → [ab,ac,bc]
 8. napisz funckcję sprawdzającą czy w danej liście elementów jest trójka spełniająca nierówność trójkąta
 
-Praca domowa:
+### Praca domowa:
 napisz funkcję która znajduje elementy tablicy które występują dokładnie 2 razy. Jaka jest złożoność? uzasadnij.
 
-* Zadanie park https://szkopul.edu.pl/problemset/problem/vFeShEOnczXpanZEaYQpDnus/site/?key=statement
-** potęgi liczb naturalnych lepiej niż liniowo.
+### Dodatkowe
+`*` Zadanie park https://szkopul.edu.pl/problemset/problem/vFeShEOnczXpanZEaYQpDnus/site/?key=statement
+`**` potęgi liczb naturalnych lepiej niż liniowo.
 
 ![xkcd](https://imgs.xkcd.com/comics/e_to_the_pi_minus_pi.png)
 
