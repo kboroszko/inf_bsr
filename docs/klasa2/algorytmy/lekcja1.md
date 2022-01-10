@@ -11,6 +11,7 @@ Przy każdym zadaniu zastanów się jaką złożoność ma Twoje rozwiązanie
 3. Znajdź największy element tablicy
 4. Sprawdź czy dany element występuje w liście.
     -  Napisz funkcję która sprawdza które elementy tablicy występują więcej niż raz
+----------
 5. Znajdź medianę elementów tablicy posortowanej i nie posortowanej
 6. Napisz funkcję sprawdzającą czy dana liczba jest pierwsza
 7. napisz funkcję która zwróci listę wszystkich par liter z danego stringa bez powtórzeń, przykład: abbaabababab → [ab], abcbaacbacbabc → [ab,ac,bc]
