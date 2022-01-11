@@ -12,7 +12,7 @@ Zasady pisania pseudo-kodu:
     - można sprawdzać długość tablicy/stringa `len(x)`
     - dla uproszczenia można używać pętli for po elementach tablicy: `for n in [1,2,3]:`
     - można też iterować po indexach w pętli for: `for n in range(len(list))`
-    - dodawanie elementu na końcu tablicy `list + [elem]`
+    - dodawanie elementu na końcu tablicy `list.append(elem)`
 
 .
 --------------------
