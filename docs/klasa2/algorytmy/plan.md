@@ -18,4 +18,4 @@ Zasady pisania pseudo-kodu:
 --------------------
 
 ## 1. [złożoność obliczeniowa](/lekcja1.md)
-## 1. [rekurencja](/lekcja2.md)
+## 2. [rekurencja](/lekcja2.md)
