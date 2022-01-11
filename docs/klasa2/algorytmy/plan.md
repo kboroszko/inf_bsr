@@ -7,7 +7,7 @@ Zasady pisania pseudo-kodu:
     - operacje artmetyczne `+.-,*,/,%`
 3. Jeśli zadanie *explicite* na to nie pozwala, nie używamy żadnych nie napisanych przez nas funkcji, bibliotek i zaawansowanych cech języka takich jak:
     - domyślna wartość argumentów funkcji
-    - `sorted(...)`, `filter()`, `pow()` itp.
+    - `sorted(...)`, `filter()`, `pow()`, potęgowanie: `**` itp.
 4. Wyjatki to:
     - można sprawdzać długość tablicy/stringa `len(x)`
     - dla uproszczenia można używać pętli for po elementach tablicy: `for n in [1,2,3]:`
