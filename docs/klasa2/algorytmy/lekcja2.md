@@ -13,11 +13,18 @@ from matplotlib import pyplot as plt
 import numpy as np
 import time
 
+########################################
+#  TWOJA FUNKCJA KTÓREJ CZAS MIERZYSZ  #
+########################################
+
 def foo(n):
   ret = []
   for i in range(n):
     ret.append(i)
   return ret
+
+########################################
+
 
 def time_it(fun, *args):
     start_time = time.time()
