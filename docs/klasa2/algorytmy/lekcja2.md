@@ -19,7 +19,7 @@ import time
 
 def foo(n):
   ret = []
-  for i in range(n):
+  for i in range(n*1000):
     ret.append(i)
   return ret
 
@@ -40,6 +40,7 @@ plt.title("time complexity")
 plt.xlabel("number of steps - n")
 plt.ylabel("execution time [sec]")
 plt.plot(points, times)
+plt.show()
 ```
 
 ### Zadania
