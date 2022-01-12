@@ -68,3 +68,6 @@ nie stoją obok siebie. Napisz funkcję która sprawdzi czy dana liczba jest lic
 
 `**` Napisz procedurę zera_silni : int → int, która dla danej dodatniej liczby całkowitej
 n obliczy ile zer znajduje się na końcu zapisu dziesiętnego liczby n!. Użyj rekurencji ogonowej.
+
+
+![xkcd](https://imgs.xkcd.com/comics/functional.png)
