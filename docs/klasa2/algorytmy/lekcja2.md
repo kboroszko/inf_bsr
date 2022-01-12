@@ -1,4 +1,7 @@
 # Lekcja 2.
+### kartkówka na początku
+napisz funkcję która znajduje różnicę między największym i najmniejszym elementem w tablicy. Jaką złożoność ma Twoje rozwiązanie?
+
 ### zagadnienia:
 - Reszta zadań z lekcji 1.
 - Rekurencja ogonowa.
