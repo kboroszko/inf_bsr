@@ -20,3 +20,4 @@ Zasady pisania pseudo-kodu:
 ## 1. [złożoność obliczeniowa](/lekcja1.md)
 ## 2. [rekurencja I](/lekcja2.md)
 ## 3. [rekurencja II](/lekcja3.md)
+## 3. [sortowanie](/lekcja4.md)
