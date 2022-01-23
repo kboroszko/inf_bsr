@@ -164,5 +164,6 @@ Twój program powinien wypisać jedną liczbę oznaczającą wysokość wierzy b
 | `3 5 3`             |                    |
 
 
+### xkcd
 
 ![xkcd](https://imgs.xkcd.com/comics/ineffective_sorts.png)
