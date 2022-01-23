@@ -127,9 +127,9 @@ Przykładowe pudło:
 
 np. Gdy mamy pudło o wymiarach: `5 x 6 x 4` (długość x szerokość x wysokość)
 
-to możemy je postawić na pudle o wymiarach `6 x 7 x 4`. 
+to możemy je postawić na pudle o wymiarach `7 x 8 x 4`. 
 
-Ale nie wolno nam ustawić go na pudle o wymiarach `5 x 7 x 4` ponieważ ma za małą podstawę.
+Ale nie wolno nam ustawić go na pudle o wymiarach `5 x 7 x 4` ponieważ ma za małą długość.
 
 Pudła można też obracać, ale tak żeby dalej stały na tym samym boku! tzn. pudło o wymiarach `5 x 6 x 4` można obrócić i wtedy będzie miało wymiary `6 x 5 x 4`, ale jego wysokość zawsze będzie taka sama.
 
