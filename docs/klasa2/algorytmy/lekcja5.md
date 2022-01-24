@@ -1,7 +1,16 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ### Kartkówka
-TODO
+Napisz funkcję `nastepcy(lista)` która dla każdego elementu obliczy ile jest elementów większych od niego stojących po prawej stronie i zwróci jako listę.
+
+przykład:
+```python
+Input =  [ 4, 6, 3, 9, 7, 10 ]
+ 
+Output = [ 4, 3, 3, 1, 1, 0 ]
+```
+
+Rozwiązanie proszę wysłać na mój mail z tytułem "Kartkówka 4"
 
 # Binary search i duże zadanie domowe
 
