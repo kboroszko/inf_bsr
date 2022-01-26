@@ -179,7 +179,7 @@ Pierwsza paczka testów znajduje się tutaj:
 
 Po pobraniu należy ją rozpakować. Są tam dwie rzeczy, folder `tests` i skrypt w bashu `run_tests.sh` który uruchamia testy po koleji. **Nie uruchomisz go na windowsie!** Jeśli nie masz linuxa to zaloguj się na serwer którego używałeś w pierwszym semestrze z Konradem.
 
-dla przyponienia, IP: 167.71.55.127
+dla przyponienia, IP napisałem na discordzie.
 
 W katalogu `tests` znajdują się pliki ponumerowane kolejno od 1 do 10.
 Każdy plik ma dwa warianty `1.in` i `1.out` w których znajduje się odpowiednio: dane wejściowe i spodziewany wynik.
