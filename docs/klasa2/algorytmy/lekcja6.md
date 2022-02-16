@@ -299,4 +299,25 @@ Stos:
 ```
 
 
-# Zadanie:
+# Zadanie 2:
+Uzupełnij `TODO` w implementacji kalkulatora który działa w notacji post-fix:
+
+Możesz założyć że podane przez użytkownika wyrażenie będzie poprawne.
+```python
+def parse(line):
+    operators = ['*', '+', '-', '/']
+    stack = []
+    for c in line.split():
+        if c in operators:
+            # TODO wykonaj operację matematyczną
+            pass
+        else:
+            number = float(c)
+            # TODO wczytaj liczbę
+            pass
+    return stack.pop()
+
+line = input("podaj wyrażenie matematyczne:\n")
+
+print(parse(line))
+```
