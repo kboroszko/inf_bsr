@@ -159,10 +159,10 @@ def delete_elem(tree, elem)
 ## *Zadanie dodatkowe:* Drzewa AVL
 Co zrobić żeby drzewa zawsze były *zbalansowane* tj. takie których wysokość jest zawsze nie większa niż `log(n)+1`?
 
-Tworzymy drzewa które podczas dodawania zostają automatycznie zrebalansowane.
+Tworzymy drzewa które podczas dodawania zostają automatycznie zrebalansowane. W drzewie AVL operacje wyszukiwania, dodawania i usuwania wszystkie zajmują `log(n)`.
 ![drzewo_avl](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif)
 
-Drzewa AVL zapisane są [tutaj](https://pl.wikipedia.org/wiki/Drzewo_AVL).
+Drzewa AVL opisane są [tutaj](https://pl.wikipedia.org/wiki/Drzewo_AVL).
 
 Spróbuj je zaimplementować!
 
