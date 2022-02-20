@@ -106,7 +106,8 @@ def print_tree(tree, rec=False):
   if rec:
     return ret, ret_idx
   else:
-    return '\n'.join(ret)
+    print('\n'.join(ret))
+    return None
 ```
 
 ## BST - Binary Search Tree
@@ -155,4 +156,13 @@ def delete_elem(tree, elem)
   pass
 ```
 
-## Drzewa ADL
+## *Zadanie dodatkowe:* Drzewa AVL
+Co zrobić żeby drzewa zawsze były *zbalansowane* tj. takie których wysokość jest zawsze nie większa niż `log(n)+1`?
+
+Tworzymy drzewa które podczas dodawania zostają automatycznie zrebalansowane.
+![drzewo_avl](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif)
+
+Drzewa AVL zapisane są [tutaj](https://pl.wikipedia.org/wiki/Drzewo_AVL).
+
+Spróbuj je zaimplementować!
+
