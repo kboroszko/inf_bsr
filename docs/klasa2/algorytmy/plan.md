@@ -22,8 +22,9 @@ Zasady pisania pseudo-kodu:
 ## 3. [rekurencja II](/lekcja3.md)
 ## 4. [sortowanie](/lekcja4.md)
 ## 5. [bin-search i zadanie domowe](/lekcja5.md)
-## 6. [ZADANIE DOMOWE](/zadanie_domowe.md)
-## 7. [Stos](/lekcja6.md)
+## * [ZADANIE DOMOWE](/zadanie_domowe.md)
+## 6. [Stos](/lekcja6.md)
+## 7. [Drzewa](/lekcja7.md)
 
 <br>
 <br>
