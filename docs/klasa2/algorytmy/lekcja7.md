@@ -1,8 +1,30 @@
 # Drzewa 🌳
 
 ### Kartkówka
-<!-- jakieś zadanie na stosy -->
+**Część 1:**
+Tworzymy drzewo BST z następujących elementów:
+```
+[1,2,3,4,5,6,7,8,9,10]
+```
+1. Jaką minimalną ma wysokość?
+2. Jaką maksymalną?
+3. Jeśli drzewo miałoby `n` elementów i byłoby *zbalansowane*, jaka jest złożoność obliczeniowa operacji dodawania elementu?
 
+
+**Część 2:**
+Tworzymy drzewo BST dodając do niego elementy w następującej kolejności:
+```
+[35,28,31,59,23,55,67,50,56,30]
+```
+Narysuj je sobie w zeszycie dla ułatwienia.
+
+
+4. Jaka jest wysokość tego drzewa?
+5. Ile operacji porównania zostanie wykonanych przy dodawaniu elementu o wartości `70`?
+6. Ile operacji porównania zostanie wykonanych przy dodawaniu elementu o wartości `29`?
+7. Ile operacji porównania zostanie wykonanych przy dodawaniu elementu o wartości `23`? (uwaga: ten element już jest w drzewie)
+
+*Żeby zaliczyć kartkówkę, odpowiedz dobrze na 6/7 pytań.*
 
 ## Binary tree
 
