@@ -1,5 +1,7 @@
 # Drzewa 🌳
 
+[kod](https://codecollab.io/@kajetan/binsearch)
+
 ### Kartkówka
 **Część 1:**
 Tworzymy drzewo BST z następujących elementów:
