@@ -321,8 +321,8 @@ Weź swoje imie i nazwisko. Zamień litery na liczby według tej tabeli:
 
 *Źródło [wikipedia](https://pl.wikipedia.org/wiki/Alfabet_polski)*
 
-Napisz **program** który stworzy drzewo BST z liter imienia,
-następnie dla każdej litery nazwiska wypisze czy znajduje się w tym drzewie.
+Napisz **program** który stworzy drzewo BST z liczb z imienia,
+następnie dla każdej liczby z nazwiska wypisze czy znajduje się w tym drzewie.
 
 Pisząc pracę domową skorzystaj z funkcji które pisaliśmy na lekcji
 
