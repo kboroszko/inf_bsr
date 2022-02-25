@@ -167,9 +167,13 @@ Następnie jeśli wybraliśmy poddrzewo, wykonujemy tą samą operacje rekurency
 
 ```python
 def find_elem(tree, elem):
-  """funkcja sprawdza czy `elem` należy do drzewa BST i zwraca True lub False"""
-  # TODO: Twoja implementacja
-  pass
+    if elem == tree.value:
+        return True
+    if elem < tree.value and tree.left_child is not None:
+        return find_elem(tree.left_child, elem)
+    if elem > tree.value and tree.right_child is not None:
+        return find_elem(tree.right_child, elem)
+    return False
 ```
 
 
@@ -184,9 +188,20 @@ Porównujemy dodawany element z korzeniem.
 
 ```python
 def add_elem(tree, elem):
-  """funkcja która doda `elem` do drzewa BST"""
-  # TODO: Twoja implementacja
-  pass
+    if elem == tree.value:
+        return 
+    if elem < tree.value and tree.left_child is not None:
+        return add_elem(tree.left_child, elem)
+    if elem > tree.value and tree.right_child is not None:
+        return add_elem(tree.right_child, elem)
+    if elem < tree.value and tree.left_child is None:
+        new_tree = Tree(elem)
+        tree.left_child = new_tree
+        return
+    if elem > tree.value and tree.right_child is None:
+        new_tree = Tree(elem)
+        tree.right_child = new_tree
+        return 
 ```
 
 
@@ -234,11 +249,101 @@ Gdy już znajdziemy taki element - (*dublera*), musimy zamienić usuwany element
 [jamboard](https://jamboard.google.com/d/1bUr35tgEYEA-d3Mlp8TR2kBEWq_Z7_9MZ7ZekenFwrA/edit?usp=sharing)
 
 ```python
-def delete_elem(tree, elem)
-  """funkcja która usunie `elem` do drzewa BST, jeśli taki istnieje.
-  Funkcja powinna zwracać korzeń nowego drzewa (po usunięciu elementu)."""
-  # TODO: Twoja implementacja
-  pass
+def delete_elem(tree, elem):
+    parent = None
+    current_node = tree
+    while current_node.value != elem:
+        if elem < current_node.value:
+            parent = current_node
+            current_node = current_node.left_child
+        else:
+            parent = current_node
+            current_node = current_node.right_child
+    if current_node.right_child is None and current_node.left_child is None:
+        if parent.left_child.value == current_node.value:
+            parent.left_child = None
+        else:
+            parent.right_child = None
+    if current_node.right_child is not None and current_node.left_child is None:
+        if parent.left_child.value == current_node.value:
+            parent.left_child = current_node.right_child
+        else:
+            parent.right_child = current_node.right_child
+    if current_node.right_child is None and current_node.left_child is not None:
+        if parent.left_child.value == current_node.value:
+            parent.left_child = current_node.left_child
+        else:
+            parent.right_child = current_node.left_child
+    else:
+        #TODO
+        pass
+```
+
+
+
+# Praca domowa:
+Weź swoje imie i nazwisko. Zamień litery na liczby według tej tabeli:
+
+| Lp. | Majuskuła | Minuskuła |                 Nazwa                 |
+|:---:|:---------:|:---------:|:-------------------------------------:|
+|   1 | A         | a         | a                                     |
+|   2 | Ą         | ą         | ą; a z ogonkiem                       |
+|   3 | B         | b         | be                                    |
+|   4 | C         | c         | ce                                    |
+|   5 | Ć         | ć         | cie; ce z kreską                      |
+|   6 | D         | d         | de                                    |
+|   7 | E         | e         | e                                     |
+|   8 | Ę         | ę         | ę; e z ogonkiem                       |
+|   9 | F         | f         | ef                                    |
+|  10 | G         | g         | gie                                   |
+|  11 | H         | h         | ha                                    |
+|  12 | I         | i         | i                                     |
+|  13 | J         | j         | jot                                   |
+|  14 | K         | k         | ka                                    |
+|  15 | L         | l         | el                                    |
+|  16 | Ł         | ł         | eł; el z kreską                       |
+|  17 | M         | m         | em                                    |
+|  18 | N         | n         | en                                    |
+|  19 | Ń         | ń         | eń; en z kreską                       |
+|  20 | O         | o         | o                                     |
+|  21 | Ó         | ó         | o z kreską; o kreskowane; u zamknięte |
+|  22 | P         | p         | pe                                    |
+|  23 | R         | r         | er                                    |
+|  24 | S         | s         | es                                    |
+|  25 | Ś         | ś         | eś; es z kreską                       |
+|  26 | T         | t         | te                                    |
+|  27 | U         | u         | u; u otwarte                          |
+|  28 | W         | w         | wu                                    |
+|  29 | Y         | y         | y; igrek                              |
+|  30 | Z         | z         | zet                                   |
+|  31 | Ź         | ź         | ziet; zet z kreską                    |
+|  32 | Ż         | ż         | żet; zet z kropką                     |
+
+*Źródło [wikipedia](https://pl.wikipedia.org/wiki/Alfabet_polski)*
+
+Napisz **program** który stworzy drzewo BST z liter imienia,
+następnie dla każdej litery nazwiska wypisze czy znajduje się w tym drzewie.
+
+Pisząc pracę domową skorzystaj z funkcji które pisaliśmy na lekcji
+
+Przykład dla 'Janek Kowalski':
+```
+Drzewo imienia:
+  ┌──(18)
+  │   └──(14)
+─(13)
+  │   ┌──(7)
+  └──(1)
+
+Litery nazwiska:
+'k':True
+'o':False
+'w':False
+'a':True
+'l':False
+'s':False
+'k':True
+'i':False
 ```
 
 # Przeszukiwanie drzewa (nie koniecznie BST):
