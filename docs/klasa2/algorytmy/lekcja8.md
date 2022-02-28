@@ -1,9 +1,9 @@
 # Przeszukiwanie drzewa
 
 ### Kartkówka na początek:
-<!-- Liczbę nazwiemy doskonałą jeśli jest równa sumie swoich dzielników. Na przykład `28 = 14 + 7 + 4 + 2 + 1` , [WIKIPEDIA](https://pl.wikipedia.org/wiki/Liczba_doskona%C5%82a). Napisz funkcję która sprawdza czy dana liczba jest liczba doskonała.
+Liczbę nazwiemy doskonałą jeśli jest równa sumie swoich dzielników. Na przykład `28 = 14 + 7 + 4 + 2 + 1` , [WIKIPEDIA](https://pl.wikipedia.org/wiki/Liczba_doskona%C5%82a). Napisz funkcję która sprawdza czy dana liczba jest liczba doskonała.
 
-*Rozwiązania prześlijcie na ten sam adres email co zawsze, z tytułem: "Kartkówka 28.02".* -->
+*Rozwiązania prześlijcie na ten sam adres email co zawsze, z tytułem: "Kartkówka 28.02".*
 
 
 # Przeszukiwanie drzewa (nie koniecznie BST):
