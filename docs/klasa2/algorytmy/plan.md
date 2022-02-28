@@ -25,6 +25,7 @@ Zasady pisania pseudo-kodu:
 ## * [ZADANIE DOMOWE](/zadanie_domowe.md)
 ## 6. [Stos](/lekcja6.md)
 ## 7. [Drzewa](/lekcja7.md)
+## 8. [Przeszukiwanie drzew](/lekcja8.md)
 
 <br>
 <br>

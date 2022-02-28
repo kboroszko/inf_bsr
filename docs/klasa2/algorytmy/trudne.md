@@ -22,7 +22,7 @@ Napisz funkcje `pref_suf(slowo)` która znajduje najdłuższy prefixo-suffix (kt
 
 
 5. Liczbę naturalną nazwiemy rzadką, jeżeli w jej zapisie binarnym żadne dwie jedynki nie stoją obok siebie. Napisz funkcję `rzadkie(n)` która sprawdzi czy dana liczba n jest liczbą rzadką. Na przykład liczba `n = 10 = 1010` jest rzadka, a liczba `n = 12 = 1100` nie jest rzadka.
-    - `*` napisz funkcję `ile_rzadkich(n)` która dla danej liczby naturalnej n wyznaczy liczbę dodatnich liczb rzadkich, które nie przekraczają n. Na przykład, dla `n = 42 = 1010102` mamy rzadkie 42 = 20.
+    - `*` napisz funkcję `ile_rzadkich(n)` która dla danej liczby naturalnej n wyznaczy liczbę dodatnich liczb rzadkich, które nie przekraczają n. Na przykład, dla `n = 42 = 101010` mamy `rzadkie(42) = 20`.
 
 
 6. Bajtek ma zabawkę, z której wystają drewniane słupki różnej wysokości. Jednym uderzeniem młotka może wbić lub wysunąć wybrany słupek o 1.
