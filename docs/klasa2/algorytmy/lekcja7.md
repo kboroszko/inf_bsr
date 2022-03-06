@@ -249,6 +249,7 @@ Gdy już znajdziemy taki element - (*dublera*), musimy zamienić usuwany element
 [jamboard](https://jamboard.google.com/d/1bUr35tgEYEA-d3Mlp8TR2kBEWq_Z7_9MZ7ZekenFwrA/edit?usp=sharing)
 
 ```python
+
 def delete_elem(tree, elem):
     parent = None
     current_node = tree
@@ -259,24 +260,62 @@ def delete_elem(tree, elem):
         else:
             parent = current_node
             current_node = current_node.right_child
+
+    # current_node jest liściem (nie ma dzieci)
     if current_node.right_child is None and current_node.left_child is None:
-        if parent.left_child.value == current_node.value:
-            parent.left_child = None
+        if parent is not None:
+            if parent.left_child.value == current_node.value:
+                parent.left_child = None
+            else:
+                parent.right_child = None
+            return tree
         else:
-            parent.right_child = None
+            return None
+    
+    # current_node ma tylko prawe dziecko
     if current_node.right_child is not None and current_node.left_child is None:
-        if parent.left_child.value == current_node.value:
-            parent.left_child = current_node.right_child
+        if parent is not None:
+            if parent.left_child.value == current_node.value:
+                parent.left_child = current_node.right_child
+            else:
+                parent.right_child = current_node.right_child
+            return tree
         else:
-            parent.right_child = current_node.right_child
+            return current_node.right_child
+
+    # current_node ma tylko lewe dziecko
     if current_node.right_child is None and current_node.left_child is not None:
-        if parent.left_child.value == current_node.value:
-            parent.left_child = current_node.left_child
+        if parent is not None:
+            if parent.left_child.value == current_node.value:
+                parent.left_child = current_node.left_child
+            else:
+                parent.right_child = current_node.left_child
+            return tree
         else:
-            parent.right_child = current_node.left_child
+            return current_node.left_child
+
+    # current node ma oboje dzieci
     else:
-        #TODO
-        pass
+        if current_node.right_child.left_child is not None:
+            node = current_node.right_child.left_child
+            while node.left_child is not None:
+                node = node.left_child
+            delete_elem(tree, node.value)
+            current_node.value = node.value
+            if parent is None:
+                return current_node
+            else:
+                return tree
+        else:
+            current_node.right_child.left_child = current_node.left_child
+            if parent is not None:
+                if parent.value > current_node.value:
+                    parent.left_child = current_node.right_child
+                else:
+                    parent.right_child = current_node.right_child
+                return tree
+            else:
+                return current_node.right_child
 ```
 
 
