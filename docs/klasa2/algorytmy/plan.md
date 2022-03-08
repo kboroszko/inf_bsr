@@ -27,6 +27,7 @@ Zasady pisania pseudo-kodu:
 ## 7. [Drzewa](/lekcja7.md)
 ## 8. [Przeszukiwanie drzew](/lekcja8.md)
 ## 9. [Hash](/lekcja9.md)
+## 10. [Powtórzenie](/lekcja10.md)
 
 <br>
 <br>

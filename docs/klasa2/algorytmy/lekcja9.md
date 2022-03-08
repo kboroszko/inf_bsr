@@ -1,6 +1,7 @@
 # Hash function
 
 ### Kartkówka na początku lekcji
+Napisz funkcję która dostanie jako argument drzewo i sprawdzi czy to drzewo jest drzewem BST.
 
 ## Cechy funkcji hashującej:
 - łatwa do policzenia
