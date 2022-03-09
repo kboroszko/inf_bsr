@@ -30,3 +30,10 @@
   - jakie są cechy dobrej funkcji hashującej?
   - Co to jest kolizja?
   - Do czego można jej użyć?
+
+
+# Praca domowa
+Napisz funkcję która dostaje listę liczb naturalnych jako argument i zwraca ją posortowaną używając drzewa BST. 
+
+Najpierw trzeba wrzucić wszystkie elementy do drzewa a następnie przeczytać je w takiej kolejności żeby były rosnąco (możesz użyć do tego algorytmu DFS, trzeba go tylko odrobinę zmodyfikować).
+

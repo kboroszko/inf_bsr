@@ -24,6 +24,34 @@ def hash(key):
     return int(h)
 ```
 
+# Przykład użycia - HashTable
+Robimy długą tablicę o długości `m` która bardzo przewyższa długością ilość spodziewanych elementów.
+
+Dodając element, najpierw liczymy jego hash → tym sposobem otrzymujemy liczbę od 1 do m. Następnie
+używamy hasha jako indexu w tej tablicy. Możemy tam coś włożyć. Albo ten element albo coś innego.
+
+![hash_table](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1200px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
+
+Jakie właściwości ma taka tablica?
+- element który hashujemy nazywamy **kluczem** (ang. key) bo służy do wkładania i wyciągania wartości.
+- jeśli tablica jest dużo większa niż ilość elementów która w niej jest, prawdopodobieństwo kolizji jest bardzo małe.
+- jeśli do środka tablicy wrzucimy element który zhashowaliśmy do indexu, to mamy `hash-set`.
+    - taki zbiór ma tylko jedną wartość każdego rodzaju
+    - złożoność dodawania elementu do takiego zbioru jest stała
+    - złożoność wyciągania elementu również
+
+- jeśli do środka tablicy wrzucimy coś innego, to mamy słownik do którego wrzucamy parę `<klucz, wartość>`.
+    - taki słownik ma tylko jeden klucz każdego rodzaju
+    - złożoność dodawania elementu do takiego zbioru jest stała
+    - złożoność wyciągania elementu również
+
+
+Co jeśli mamy pecha i wystąpi kolizja?
+![hash_table_colisions](https://www.jsmount.com/wp-content/uploads/2021/02/hash-table-structure.png)
+
+
+
+
 # Praca domowa
 Napisać program który sprawdzi dla każdego indexu od 1 do `m = 100` jaki jest jego hash
 oraz sprawdzi czy dany hash nie wystąpił już wcześniej. Następnie wypisze listę kolizji
